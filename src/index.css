@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.text-secondary {
+  color:#1364AA
+}
+
+.j-card {
+  padding: 0;
+  width: 15rem;
+}
+
+.j-card-image {
+  border-radius: 10px;
+  height: 30rem;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.j-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.j-card-title {
+  font-size: 24px;
+  margin: 0rem;
+}
+
+.j-card-subtitle {
+  font-size: 16px;
+  margin: 0rem;
+}
+
+.carousel-h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.home-row {
+  height: 28rem;
+  margin-top: 3rem;
+}
+
+.navlink {
+  margin: 0 3rem 0 3rem;
+}
