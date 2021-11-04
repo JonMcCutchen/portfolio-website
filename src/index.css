@@ -55,3 +55,7 @@ code {
 .navlink {
   margin: 0 3rem 0 3rem;
 }
+
+.contact-container a {
+  padding: 0 2rem 0 2rem;
+}
