@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Carousel } from '../../components/Portfolio/Carousel';
+import Carousel from '../../components/Portfolio/Carousel';
 
 export const Home = () => {
     return(

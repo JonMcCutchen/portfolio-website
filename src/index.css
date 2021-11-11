@@ -17,13 +17,13 @@ code {
 }
 
 .j-card {
-  padding: 0;
-  width: 15rem;
+  margin: 20px;
+  width: auto;
 }
 
 .j-card-image {
   border-radius: 10px;
-  height: 30rem;
+  height: 480px;
   box-shadow: 0px 0px 3px 1px #ccc;
 }
 
@@ -40,6 +40,7 @@ code {
 .j-card-subtitle {
   font-size: 16px;
   margin: 0rem;
+  max-width: 260px;
 }
 
 .carousel-h2 {
