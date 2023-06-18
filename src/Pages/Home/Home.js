@@ -11,7 +11,7 @@ export const Home = () => {
         <Container>
             <Row className='home-row'>
                 <Col className=''>
-                    <h2>Hi, I'm <span className='text-primary'>Jon</span> and I'm a <span className='text-primary'>web developer</span></h2>
+                    <h2>Hi, I'm <span className='text-primary'>Jon</span> and I'm a <span className='text-primary'>full stack software engineer</span></h2>
                     <p className=''>Welcome to my website! Here you can find out more about me and view  a collection of my projects.</p>
                 </Col>
                 <Col className='d-flex justify-content-center' >

@@ -2,11 +2,20 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 
 export const About = () => {
-    return(
+    return (
         <Container fluid={true} className='mt-4'>
             <h2 className='text-center'>Hi, I'm <span className='text-primary'>Jon</span></h2>
             <br />
-            <p className='mb-5 mx-auto w-xl-50'>I'm a small town kid from South Carolina that has always been intrigued by emerging tech. I got a degree in mechanical engineering while spending 3 years in London, England. During that time, I taught myself html, css, javascript and react.js with a little help from Codecademy. Afterwards I decided that I preferred working with computers and the web. I like the modernity of the field and being able to contribute to a project from anywhere in the world. I have a passion for traveling and absorbing new places and cultures so working remotely or semi-remotely is definitely a plus for me. I'd love to start my own company one day, something that has a positive impact on the planet and the people living on it. For now I want to work for an inspiring company and bring as much value as I can while building my skills and experience.</p>
+            <p className='mb-5 mx-auto w-xl-50'>Hello, I'm Jon McCutchen, a software engineer helping to advance technology one line of code at a time.</p>
+
+            <h3>My <span className='text-primary'>Journey</span></h3>
+            <p>I embarked on my tech journey while pursuing a degree in Mechanical Engineering in London. Here, I found myself captivated by the rapidly evolving field of technology and resolved to delve deeper. I independently learned a suite of web development languages, including HTML, CSS, JavaScript, React.js, Python, with the assistance of Codecademy.
+                My experience abroad unveiled the incredible global potential of web development, its modern appeal, its versatility that allows anyone to contribute to a project from any corner of the world. This appealed to my love for travel and learning about different cultures, leading me to pivot towards a career in software engineering.</p>
+            <h3>My <span className='text-primary'>Experience</span></h3>    
+                <p>Now based in Atlanta, I'm an Associate Java Developer at Delta Airlines. My role involves collaboration with diverse teams, developing and maintaining revenue and accounting applications. I utilize my expertise in Java, Python, and JavaScript, along with my experience with AWS, to modernize legacy systems and enhance their performance. 
+                    I previously honed my Java skills at Genspark and offered my web development expertise as a freelancer to several small businesses. My immediate goal is to grow within an innovative and forward-thinking organization, where I can add value and simultaneously refine my skills and experience.</p>
+            <h3>Let's <span className='text-primary'>Connect</span></h3>
+                <p>If you'd like to get in touch, please feel free to contact me via email at <a href="mailto:jmmccutchen1@gmail.com">jmmccutchen1@gmail.com</a> or via LinkedIn at <a href="https://www.linkedin.com/in/jonmccutchen">https://www.linkedin.com/in/jonmccutchen</a>. I look forward to connecting with you!</p>
         </Container>
     )
 }

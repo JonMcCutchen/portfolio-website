@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from './Card';
 import proHealth from '../../assets/images/pro-health-webpage.jpg';
+import peakIndustry from '../../assets/images/www.peakindustrysolutions.net.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -17,6 +18,14 @@ class Carousel extends React.Component {
                     subTitle: 'A website built for an independent health and nutrition business.',
                     imgSrc: proHealth,
                     link: 'https://www.prohealthandnutrition.co.uk/',
+                    selected: false
+                },
+                {
+                    id: 1,
+                    title: 'Peak Industry Solutions',
+                    subTitle: 'A website built for a small business staffing firm.',
+                    imgSrc: peakIndustry,
+                    link: 'https://www.peakindustrysolutions.net/',
                     selected: false
                 }
             ]
